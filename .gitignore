@@ -1,0 +1,16 @@
+appsettings.Development*
+
+*.tgz
+*.tar
+*.zip
+
+*.bck
+*.old
+*.orig
+
+*.cer
+*.key
+*.crt
+
+.idea
+.DS_Store
