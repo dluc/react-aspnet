@@ -17,6 +17,8 @@ If your React application requires your web service to be running, run the
 .NET app (see below), and point React to https://127.0.0.1:9001/api/yourendpoints.
 In this case TCP ports will differ, needing CORS.
 
+The web service already includes a `POST /api/upload` endpoint accepting file uploads.
+
 ## Build
 
 Once the React application code is ready, run `yarn build`. This publishes
@@ -30,6 +32,8 @@ Open [app.sln](app.sln) in VS/VSCode/Rider and edit the .NET code as usual, like
 other ASP.NET app.
 
 The code uses ASP.NET minimal API syntax, making it easy to add new endpoints.
+
+The web service already includes a `POST /api/upload` endpoint accepting file uploads.
 
 ## Build
 
