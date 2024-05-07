@@ -68,7 +68,7 @@ const FileUpload: React.FC = () => {
                         aria-valuemax={100}
                         style={{ width: progress + "%" }}
                     >
-                        {progress}%
+                        Upload progress: {progress}%
                     </div>
                 </div>
             )}
